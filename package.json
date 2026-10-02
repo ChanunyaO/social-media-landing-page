@@ -2,11 +2,11 @@
   "name": "social-media-landing-page",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://em-jobfair.github.io/",
+  "homepage": "https://chanunyao.github.io/social-media-landing-page/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
