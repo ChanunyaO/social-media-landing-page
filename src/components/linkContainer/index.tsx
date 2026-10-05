@@ -14,7 +14,6 @@ export function LinkContainer({
   image: string
   color: string 
 }) {
-  const [isActive, setIsActive] = useState(false)
   return (
     <a 
       href={link}
@@ -31,7 +30,7 @@ export function LinkContainer({
         margin: '5px 10px',
         textDecoration: 'none',
         color: '#333',
-        borderRadius: '10px',
+        borderRadius: '50px', // 10px
         border: `1px solid ${color}`,
         fontWeight: 'bold',
         cursor: 'pointer',
@@ -54,7 +53,7 @@ export function LinkContainer({
         <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left', minWidth: 0 }}>
           <div style={{ fontSize: 'clamp(1rem, 2vw, 1.3rem)', fontWeight: 'bold', color:'white' }}>{title}</div>
           <div style={{ 
-            fontSize: 'clamp(0.9rem, 1.5vw, 01rem)', 
+            fontSize: 'clamp(0.9rem, 1.5vw, 1rem)', 
             opacity: 0.6, 
             color: 'white',
             marginTop: '-5px' 

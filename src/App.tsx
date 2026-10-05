@@ -55,7 +55,7 @@ function App() {
             letterSpacing: '0.02em',
             textShadow: '0 2px 4px rgba(0,0,0,0.3)'
           }}>
-            ExxonMobil
+            ExxonMobil IT
           </div>
         </div>
 
